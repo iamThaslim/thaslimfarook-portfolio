@@ -1,0 +1,23 @@
+.typography {
+  color: var(--color-neutral-950);
+  font-size: var(--text-xl);
+  line-height: var(--text-xl--line-height);
+
+  --shiki-color-text: var(--color-white);
+  --shiki-color-background: var(--color-neutral-950);
+  --shiki-token-constant: var(--color-neutral-300);
+  --shiki-token-string: var(--color-neutral-400);
+  --shiki-token-comment: var(--color-neutral-500);
+  --shiki-token-keyword: var(--color-neutral-400);
+  --shiki-token-parameter: var(--color-neutral-400);
+  --shiki-token-function: var(--color-neutral-300);
+  --shiki-token-string-expression: var(--color-neutral-300);
+  --shiki-token-punctuation: var(--color-neutral-400);
+
+  :where(.typography > *) {
+    margin-top: --spacing(6);
+    margin-bottom: --spacing(6);
+  }
+
+
+}
